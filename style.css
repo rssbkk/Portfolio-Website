@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    display: inline;
+    padding: 1em;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.main-page-projects {
+    height: 100vh;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
